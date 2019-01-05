@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 05, 2019 at 02:33 PM
+-- Generation Time: Jan 05, 2019 at 02:37 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.0
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `php_beginner_crud_level_1`
 --
+CREATE DATABASE IF NOT EXISTS `php_beginner_crud_level_1` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+USE `php_beginner_crud_level_1`;
 
 -- --------------------------------------------------------
 
